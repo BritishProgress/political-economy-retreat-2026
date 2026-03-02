@@ -19,28 +19,51 @@ var EVENT_CONFIG = {
     airtable: 'https://airtable.com/embed/appINLR4clVxEpwol/pagcrp0wVgfqEVnG6/form'
   },
 
-  // Event scenes — each has its own image and colour scheme
+    // Set to false to hide the form embed entirely (e.g. before registration opens)
+  SHOW_EMBED: true,
+
+  // Set to false to hide the large decorative images on the far right of the hero
+  SHOW_RIGHT_BG: false,
+
+  // Event scenes — each has its own colour scheme, card image, and far-right background image
   // The hero cycles through all three automatically
+  // Available images: turbine.webp, pills.webp, plane.webp,
+  //                   networking-outside.png, presentation.png, ditchley-park.png
   EVENT_SCENES: [
     {
-      image:    './images/networking-outside.png',
-      imageAlt: 'Networking outside',
+      leftImage:    './images/networking-outside.png',
+      leftImageAlt: 'Networking outside',
+      // leftImage:    './images/turbine-small.webp',
+      // leftImageAlt: 'Wind turbine',
+      rightImage:   './images/turbine.webp',
+      rightImageAlt: 'Wind turbine',
       bgColor:  '#0A4938',
       accent:   '#3a8d5d'
     },
     {
-      image:    './images/presentation.png',
-      imageAlt: 'Conference presentation',
+      leftImage:    './images/presentation.png',
+      leftImageAlt: 'Conference presentation',
+      // leftImage:    './images/plane-small.webp',
+      // leftImageAlt: 'Aeroplane',
+      rightImage:   './images/plane.webp',
+      rightImageAlt: 'Aeroplane',
       bgColor:  '#083D77',
       accent:   '#298EF9'
     },
     {
-      image:    './images/ditchley-park.png',
-      imageAlt: 'Ditchley Park',
+      leftImage:    './images/ditchley-park.png',
+      leftImageAlt: 'Ditchley Park',
+      // leftImage:    './images/pills-small.webp',
+      // leftImageAlt: 'Medicine',
+      rightImage:   './images/pills.webp',
+      rightImageAlt: 'Medicine',
       bgColor:  '#a62241',
       accent:   '#D4354B'
     }
   ],
+
+  // Speed of the hero scene transitions in milliseconds (default: 5000 = 5 seconds)
+  TRANSITION_INTERVAL: 4000,
 
   // Hero heading font size — adjust each independently
   HEADING_FONT_SIZE_DESKTOP: '42px',  // screens wider than 1024px
