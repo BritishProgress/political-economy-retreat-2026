@@ -24,8 +24,8 @@ var EVENT_CONFIG = {
   EVENT_IMAGE_ALT: 'Ditchley Park',
 
   // Hero heading font size — adjust each independently
-  HEADING_FONT_SIZE_DESKTOP: '44px',  // screens wider than 1024px
-  HEADING_FONT_SIZE_TABLET:  '26px',  // screens 769px – 1024px
-  HEADING_FONT_SIZE_MOBILE:  '23px'   // screens 768px and below
+  HEADING_FONT_SIZE_DESKTOP: '42px',  // screens wider than 1024px
+  HEADING_FONT_SIZE_TABLET:  '25px',  // screens 769px – 1024px
+  HEADING_FONT_SIZE_MOBILE:  '22px'   // screens 768px and below
 
 };
