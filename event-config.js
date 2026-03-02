@@ -7,6 +7,7 @@ var EVENT_CONFIG = {
 
   // Event title — used in the page tab, meta description, and hero heading
   EVENT_TITLE: 'Political Economy Retreat 2026',
+  EVENT_LOCATION: 'Ditchley Park, Oxfordshire',
 
   // Form to display: 'tally' or 'airtable'
   // Note: the custom success message only works with Tally.
@@ -25,6 +26,6 @@ var EVENT_CONFIG = {
   // Hero heading font size — adjust each independently
   HEADING_FONT_SIZE_DESKTOP: '44px',  // screens wider than 1024px
   HEADING_FONT_SIZE_TABLET:  '26px',  // screens 769px – 1024px
-  HEADING_FONT_SIZE_MOBILE:  '26px'   // screens 768px and below
+  HEADING_FONT_SIZE_MOBILE:  '23px'   // screens 768px and below
 
 };

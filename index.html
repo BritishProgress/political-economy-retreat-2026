@@ -36,7 +36,8 @@ body.form-submitted .form-success{position:fixed!important;top:0!important;right
   if(metaDesc) metaDesc.setAttribute('content', 'Centre for British Progress - ' + cfg.EVENT_TITLE);
   var heading = document.querySelector('.main-title');
   if(heading) {
-    heading.innerHTML = 'Centre for British Progress:<br>' + cfg.EVENT_TITLE;
+    heading.innerHTML = 'Centre for British Progress:<br>' + cfg.EVENT_TITLE
+      + (cfg.EVENT_LOCATION ? '<br><em style="font-size:0.65em;font-style:italic;opacity:0.8;">' + cfg.EVENT_LOCATION + '</em>' : '');
     var s = document.createElement('style');
     s.textContent = '.main-title{font-size:' + cfg.HEADING_FONT_SIZE_DESKTOP + '!important}'
       + '@media(max-width:1024px){.main-title{font-size:' + cfg.HEADING_FONT_SIZE_TABLET + '!important}}'
