@@ -19,9 +19,28 @@ var EVENT_CONFIG = {
     airtable: 'https://airtable.com/embed/appINLR4clVxEpwol/pagcrp0wVgfqEVnG6/form'
   },
 
-  // Event image — shown in the hero card
-  EVENT_IMAGE:     './images/ditchley-park.png',
-  EVENT_IMAGE_ALT: 'Ditchley Park',
+  // Event scenes — each has its own image and colour scheme
+  // The hero cycles through all three automatically
+  EVENT_SCENES: [
+    {
+      image:    './images/networking-outside.png',
+      imageAlt: 'Networking outside',
+      bgColor:  '#0A4938',
+      accent:   '#3a8d5d'
+    },
+    {
+      image:    './images/presentation.png',
+      imageAlt: 'Conference presentation',
+      bgColor:  '#083D77',
+      accent:   '#298EF9'
+    },
+    {
+      image:    './images/ditchley-park.png',
+      imageAlt: 'Ditchley Park',
+      bgColor:  '#a62241',
+      accent:   '#D4354B'
+    }
+  ],
 
   // Hero heading font size — adjust each independently
   HEADING_FONT_SIZE_DESKTOP: '42px',  // screens wider than 1024px
