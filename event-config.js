@@ -16,7 +16,7 @@ var EVENT_CONFIG = {
 
   FORM_URLS: {
     tally:    'https://tally.so/r/9qdrRE',
-    airtable: 'https://airtable.com/embed/appINLR4clVxEpwol/pagcrp0wVgfqEVnG6/form'
+    airtable: 'https://airtable.com/embed/appINLR4clVxEpwol/pagp17IkZUCQOuHgs/form'
   },
 
     // Set to false to hide the form embed entirely (e.g. before registration opens)
